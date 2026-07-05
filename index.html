@@ -3,56 +3,104 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>yachtjet</title>
   </head>
+
   <body>
     <header class="header">
-      <a href=".index.html">yachtjet</a>
-      <nav>
-        <ul class="navigation">
-          <li class="navigation-item">
-            <a href="" class="navigation-link">About</a>
+      <div class="container">
+        <a class="logo" href="./index.html">yachtjet</a>
+
+        <nav class="header-nav">
+          <ul class="navigation">
+            <li class="navigation-item">
+              <a class="navigation-link" href="#about">About</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#yachts">Yachts</a>
+            </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#reviews">Reviews</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="social">
+          <li class="social-item">
+            <a class="social-link" href="#">Instagram</a>
           </li>
-          <li class="navigation-item">
-            <a href="" class="navigation-link">Yachts</a>
+          <li class="social-item">
+            <a class="social-link" href="#">YouTube</a>
           </li>
-          <li class="navigation-item">
-            <a href="" class="navigation-link">Reviews</a>
+          <li class="social-item">
+            <a class="social-link" href="#">Facebook</a>
           </li>
         </ul>
-      </nav>
-      <ul class="social">
-        <li class="social-item"><a href="" class="social-link">In</a></li>
-        <li class="social-item"><a href="" class="social-link">YT</a></li>
-        <li class="social-item"><a href="" class="social-link">Fb</a></li>
-      </ul>
+      </div>
     </header>
+
     <main>
       <section class="hero">
-        <h1 class="hero-title">
-          Explore the High Seas with Our Luxury Yacht Rentals
-        </h1>
-        <p class="hero-text">
-          Experience the freedom and luxury of yachting on the open seas. Choose
-          from our top-of-the-line yachts and embark on an unforgettable journey
-          surrounded by breathtaking views and state-of-the-art amenities.
-        </p>
-        <a href="#" class="hero-link">Yacht rental</a>
+        <div class="container">
+          <h1 class="hero-title">
+            Explore the High Seas with Our Luxury Yacht Rentals
+          </h1>
+          <p class="hero-text">
+            Experience the freedom and luxury of yachting on the open seas.
+            Choose from our top-of-the-line yachts and embark on an
+            unforgettable journey surrounded by breathtaking views and
+            state-of-the-art amenities.
+          </p>
+          <a href="#" class="hero-link">Yacht rental</a>
+        </div>
       </section>
+
+      <section class="about">
+        <div class="container">
+          <h2 class="section-title">
+            YachtJet fleet is here to take you on the ultimate adventure
+          </h2>
+          <h3 class="about-subtitle">
+            From spacious decks to state-of-the-art technology, our yachts are
+            designed to provide the perfect blend of luxury and functionality.
+          </h3>
+          <p class="about-text">
+            Take a look at our selection below and choose the yacht that matches
+            your needs and preferences. No matter which yacht you choose, our
+            experienced crew will ensure that your journey is smooth and
+            enjoyable. Book now and get ready for an unforgettable adventure on
+            the high seas.
+          </p>
+          <img
+            class="about-image"
+            src="./images/Photo.jpg"
+            alt="Luxury yacht on the sea"
+            width="1340"
+            height="470"
+          />
+        </div>
+      </section>
+
       <section>
-        <h2>YachtJet fleet is here to take you on the ultimate adventure</h2>
-        <h3>
-          From spacious decks to state-of-the-art technology, our yachts are
-          designed to provide the perfect blend of luxury and functionality.
-        </h3>
-        <p>
-          Take a look at our selection below and choose the yacht that matches
-          your needs and preferences.No matter which yacht you choose, our
-          experienced crew will ensure that your journey is smooth and
-          enjoyable. Book now and get ready for an unforgettable adventure on
-          the high seas.
-        </p>
-        <img src="./images/Photo.jpg" alt="yacht" />
+        <div class="container">
+          <h2 class="section-title">
+            Choose your dream yacht and sail away into the sunset
+          </h2>
+        </div>
       </section>
     </main>
   </body>
