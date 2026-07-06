@@ -1,0 +1,47 @@
+.header {
+  margin: 32px auto 0;
+  border: 1px solid #fbfbfb;
+  border-radius: 8px;
+  width: 1240px;
+  background: #fbfbfb;
+}
+
+.header > .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4px 30px;
+}
+
+.header-nav {
+  margin-left: auto;
+  margin-right: 362px;
+}
+
+.logo {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.03em;
+  color: #1b414b;
+}
+
+.social {
+  display: flex;
+  gap: 8px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1b414b;
+}
+
+.social-icon {
+  color: #1b414b;
+}
+
+.social-icon:hover,
+.social-icon:focus {
+  color: #062730;
+}
